@@ -41,15 +41,15 @@ If you want to keep all the existing variables and just want to rename a few, yo
 
 
 There are five handy functions that allow you to extract specific rows within each group:  
-df |> slice_head(n = 1) takes the first row from each group.  
-df |> slice_tail(n = 1) takes the last row in each group.  
-df |> slice_min(x, n = 1) takes the row with the smallest value of column x.  
-df |> slice_max(x, n = 1) takes the row with the largest value of column x.  
-df |> slice_sample(n = 1) takes one random row.  
+**df |> slice_head(n = 1)** takes the first row from each group.  
+**df |> slice_tail(n = 1)** takes the last row in each group.  
+**df |> slice_min(x, n = 1)** takes the row with the smallest value of column x.  
+**df |> slice_max(x, n = 1)** takes the row with the largest value of column x.  
+**df |> slice_sample(n = 1)** takes one random row.  
 
 
-group_by(): used to divide your dataset into groups meaningful for your analysis. The main advantage of group_by() over .by is when you want to apply multiple verbs in a row to the same grouping structure.  
+**group_by():** used to divide your dataset into groups meaningful for your analysis. The main advantage of group_by() over .by is when you want to apply multiple verbs in a row to the same grouping structure.  
 
 
-ungroup(): to remove grouping from a data frame  
+**ungroup():** to remove grouping from a data frame  
 
