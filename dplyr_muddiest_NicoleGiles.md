@@ -2,7 +2,7 @@
 title: "Chapter 3, Muddiest Point""
 author: "Nicole Giles"
 date: "2025-09-08"
-output: pdf
+output: gfm
 ---
 
 ##Chapter 3, *dplyr*: Muddiest Point

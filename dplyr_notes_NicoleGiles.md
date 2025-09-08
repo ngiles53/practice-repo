@@ -46,7 +46,7 @@ There are five handy functions that allow you to extract specific rows within ea
 **df |> slice_min(x, n = 1)** takes the row with the smallest value of column x.  
 **df |> slice_max(x, n = 1)** takes the row with the largest value of column x.  
 **df |> slice_sample(n = 1)** takes one random row.  
-
+ 
 
 **group_by():** used to divide your dataset into groups meaningful for your analysis. The main advantage of group_by() over .by is when you want to apply multiple verbs in a row to the same grouping structure.  
 
