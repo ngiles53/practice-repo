@@ -1,6 +1,6 @@
 ---
-title: "dplyr_notes_NicoleGiles"
-author: "Nicole Gile"
+title: "Chapter 3 dplyr Notes"
+author: "Nicole Giles"
 date: "September 8, 2025"
 format: gfm
 ---
